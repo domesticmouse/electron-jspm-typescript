@@ -1,0 +1,23 @@
+{
+  "name": "electron-jspm-typescript",
+  "version": "1.0.0",
+  "description": "A boilerplate Electron App with jspm and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yiyi Sun",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yysun/electron-jspm-typescript.git"
+  },
+  "license": "MIT",
+  "jspm": {
+    "directories": {
+      "baseURL": "www"
+    },
+    "devDependencies": {
+      "typescript": "github:mhegazy/typescript@v1.5-beta2"
+    }
+  }
+}
