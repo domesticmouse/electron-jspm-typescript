@@ -1,14 +1,3 @@
-import {Commands} from './commands';
+import Application from './application';
 
-export class App {
-
-	constructor() {
-		console.log("hi");
-	}
-
-	main () {
-		var app2 = new Commands();
-	}
-}
-
-new App().main();
+let app = new Application();
