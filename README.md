@@ -36,6 +36,8 @@ EJT (Electron jspm TypeScript) is a boileplate of building apps with Electron, j
 
 2. Restor jspm packages
 
+    $ npm install
+    
     $ jspm install
 
 3. If everything worked out, run
